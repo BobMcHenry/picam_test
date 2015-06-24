@@ -1,7 +1,7 @@
 import time
 import picamera
 
-
+# X is number of photos, t is time interval
 def timelapse(x, t):
     with picamera.PiCamera() as camera:
 
